@@ -1,0 +1,419 @@
+
+/* reset css */
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#start {
+    margin: 0px 30px;
+}
+
+/* First */
+#first {
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    background: rgb(66 238 255);
+    height: 60px;
+}
+
+nav {
+    display: flex;
+    margin-bottom: 3px;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: 'Alkatra', cursive;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+button {
+    margin: 16px 3px;
+    padding: 5px 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#btn {
+    margin-right: 31px;
+}
+
+p {
+    margin-right: 130px;
+    
+}
+
+#first #firstpara {
+    margin-top: 12px;
+    font-size: 23px;
+    font-family: 'Alkatra', cursive;
+}
+
+/* Second */
+#second {
+    display: flex;
+    margin: 12px 23px;
+    overflow: hidden;
+    justify-content: space-between;
+}
+
+#second input button #searchicon{
+    margin-left: 10px;
+}
+#icon1 {
+    font-size: 50px;
+    margin: 5px 33px;
+}
+
+#icon2 {
+    font-size: 30px;
+    margin-top: 18px;
+    padding: 0px 10px
+}
+
+#second #bounsicon {
+    margin-top: 20px;
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+#online {
+    display: flex;
+    flex-direction: row;
+    margin: -5px -122px;
+}
+
+input {
+    padding: 8px 15px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 13px;
+    margin-right: 130px;
+
+}
+
+/* Third */
+#navigation {
+    background: #100d0d;
+    color: white;
+    height: 60px;
+    width: 1275px;
+    margin: 12px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.navbar li {
+    margin: -2px 15px;
+    list-style: none;
+    font-size: 18px;
+    margin-left: 15px;
+}
+
+/* fourth */
+#fourth {
+    display: flex;
+}
+
+#productsimages .newpro .text {
+    text-align: justify;
+}
+
+/* Catergry Part Css */
+#category {
+    border: 3px solid rgb(148, 148, 148);
+    width: 281px;
+    margin-left: 18px;
+    height: 2040px;
+}
+
+#category h2 {
+    margin-left: 20px;
+}
+
+#android img {
+    width: 230px;
+    margin-left: 21px;
+    border-radius: 15px
+}
+
+ol {
+    padding: 5px 24px;
+}
+
+#category ol li {
+    list-style: none;
+    font-size: 20px;
+}
+
+#category ol li i {
+    margin-right: 10px;
+    font-size: 20px;
+    margin: 10px;
+}
+
+#sellers {
+    margin-top: 40px;
+    display: block;
+    margin-left: 20px;
+}
+
+#sellers h5 {
+    margin: 10px 0px;
+
+}
+
+.sellimages {
+    display: flex;
+    flex-direction: row;
+}
+
+.sellimages img {
+    width: 115px;
+    height: 110px;
+    margin: 10px 0px;
+    border-radius: 15px;
+}
+
+.sellimages h4 {
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+#newproducts {
+    margin: -89px 2px;
+}
+
+#newproducts h2 {
+    margin-left: 10px;
+    background: #000000;
+    padding: 7px;
+    width: 190px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+}
+
+#newproducts h4 {
+    margin: -5px;
+    margin-left: 22px;
+    font-size: 20px;
+}
+
+#productsimages {
+    display: flex;
+    justify-content: space-between;
+}
+
+#newproducts .newpro img {
+    width: 233px;
+    height: 180px;
+    padding: 0px;
+    margin: 4px 20px;
+    border-radius: 7px;
+}
+
+/*  */
+#picture {
+    height: 400px;
+    width: 1010px;
+    margin-left: 14px;
+    background: rgb(190, 188, 188);
+
+}
+
+#picture #spec {
+    display: inline-block;
+}
+
+#picture img {
+    width: 307px;
+    padding: 23px;
+    margin-left: 149px;
+    height: 339px;
+    margin-bottom: 92px;
+}
+
+#picture h3 {
+    margin-top: 70px;
+    outline: none;
+}
+
+h3 button {
+    padding: 10px 17px;
+    background: #13f925;
+    outline: none;
+    border-radius: 7px;
+    margin-left: 10px;
+    margin-top: 31px;
+    font-size: 20px;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: 0.5s;
+    cursor: pointer;
+
+}
+
+h3 button:hover {
+    background: black;
+    color: white;
+}
+
+#discount {
+    background-color: rgb(92, 153, 2);
+    color: white;
+    width: 800px;
+    text-align: center;
+    padding: 1px;
+    border-radius: 10px;
+    margin: 100px -390px;
+    display: flex;
+}
+
+#discount h1 {
+    margin-left: 73px;
+}
+
+/* tech */
+#tech h1{
+    font-family: 'Alkatra', cursive;
+}
+#newproducts #tech {
+    border: 1px solid rgb(151, 151, 151);
+    display: flex;
+}
+
+#newproducts #tech #shop {
+    display: block;
+    margin: 22px 17px;
+    text-align: justify;
+}
+
+#newproducts #tech img {
+    margin: 0px;
+    padding: 0px;
+    width: 330px;
+    height: 290px;
+}
+
+/* fifth */
+#fifth {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+#fifth h3 {
+    font-size: 25px;
+}
+
+#fifth img {
+    width: 220px;
+    height: 140px;
+    border-radius: 5px;
+}
+
+#fifth .secondlast {
+    display: flex;
+    margin: 10px 0px;
+}
+
+
+
+/* sixth */
+#sixth {
+    margin-top: 30px;
+}
+
+#sixth h1 {
+    margin-left: 30px;
+}
+
+#sixth img {
+    width: 200px;
+    height: 250px;
+    margin-left: 16px;
+}
+
+/* footer */
+footer {
+    width: 100%;
+    height: 300px;
+    background-color: rgb(80, 79, 79);
+    color: #d5d5d5;
+}
+
+#footer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#footer .iconns {
+    display: flex;
+    margin: -23px 0px;
+}
+
+#footer .iconns i {
+    margin: 21px 10px;
+}
+
+#footer .iconns img {
+    width: 146px;
+    height: 100px;
+    margin: 17px 0px;
+}
+
+#footer h3 {
+    margin-top: 30px;
+    text-align: justify;
+}
+
+#footer #footerimage img {
+    height: 68px;
+    width: 146px;
+    margin-left: 13px;
+    margin-top: 48px;
+}
+
+#footer input {
+    margin-left: -2px;
+    background: #545454;
+    outline: none;
+    border: none;
+    border: 1px solid black;
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: 0.5s;
+}
+
+#footer input:hover {
+    background: #474747;
+    color: white;
+}
+
+#footer button {
+    background: yellow;
+    border: none;
+    margin-left: -1px;
+    padding: 7px 15px;
+}
+
+/* second footer */
+#secfooter {
+    background: black;
+    width: 100%;
+    height: 45px;
+    text-align: center;
+}
+
+#secfooter h3 {
+    padding: 12px;
+    font-size: 15px;
+}
